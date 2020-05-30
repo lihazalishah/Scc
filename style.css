@@ -1,0 +1,317 @@
+body{
+    background-color:  #cecebf2f;
+}
+
+#main-h{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+    
+}
+#logo-width{
+    width: 100px !important;
+}
+@media only screen and (max-width:600px){
+    #main-h{
+        font-size: 15px;
+      }
+}
+.anker{
+    text-decoration: none !important;
+    border: transparent !important;
+    
+    
+}
+.anker:hover{
+    color: white !important;
+}
+
+.navbar{
+    background-color: white !important;
+border-bottom: 2px solid #010e33;
+
+}
+.carousel-fade,.carousel{
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.carousel-fade,.carousel{
+    margin-top: 90px;
+}
+
+#hight{
+    height: 300px !important;
+}
+
+.navbar-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+#guess_paper{
+    font-weight: lighter !important;
+    margin-top: 10px !important;
+    background: #010e33 !important ;
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px !important;
+    color: #f2ebf0 !important;
+    border:  transparent !important;
+    text-shadow: 5px 5px 4px rgb(131, 130, 130) !important;
+}
+@media only screen and (max-width:600px){
+    #guess_paper{
+        position: relative;
+        font-size: 20px !important;
+        top: 15px;
+    }
+}
+.card-header{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder !important;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    border: transparent;
+    background-color: white;
+    text-shadow: 5px 5px 5px rgb(133, 127, 127) !important;
+    
+    
+}
+#sindhi{
+    font-size: 19.5px !important;
+}
+#paper-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70% !important;
+    border:1px solid #010e33 !important ;
+    /* border: transparent !important; */
+    box-shadow: 10px 10px 8px rgb(196, 197, 199);
+    border-radius: 50px 0px 50px 0px;
+   
+}
+
+@media only screen and (max-width:600px){
+    #paper-div{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% !important;
+        /* border: transparent !important; */
+        box-shadow: 10px 10px 10px rgb(196, 197, 199);
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+
+}
+
+#class9th{
+  text-align: center;
+}
+#footer{
+    margin-top: 10px !important;
+   
+    background: #010e33 !important;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px !important;
+    border: 1px solid #010e33;
+    
+    
+}
+@media only screen and (max-width:600px){
+    #footer-t{
+        font-size: 10px !important;
+    }
+}
+#footer-t{
+    margin-left: 10% !important;
+}
+#paper-div:hover{
+    background-color:rgb(251, 252, 255) !important ;
+}
+#paper_box{
+    box-shadow: 10px 10px 10px rgb(196, 197, 199);
+    border-radius: 10px 40px 10px 40px;
+    border:1px dashed rgb(2, 2, 2);
+    border-color: rgb(2, 2, 2);
+}
+#paper_box:hover{
+    border-width: 2px;
+    border-color: #46547c !important;
+    color:rgb(13, 64, 88) !important;
+
+}
+#guess-paper-BUTTON{
+    display: block;
+    margin-right: auto;
+   font-weight: bolder;
+    border: transparent !important;
+    border-radius:10px 10px 10px 10px ;
+}
+
+.card-header{
+    border-radius: 40px 0px 0px 0px !important;
+    background-color: #010e33;
+    width: 98%;
+    color: white !important;
+}
+@media only screen and (max-width:600px){
+    .card-header{
+        border-radius: 0px 0px 0px 0px !important;
+    }
+}
+/* guess papers */
+
+#comingsoon-div{
+    background-color: rgb(250, 253, 253) !important;
+    border: transparent;
+}
+#comingsoon{
+    font-size: 100px;
+    color: rgb(219, 226, 226) !important ;
+}
+@media only screen and (max-width:1000px){
+    #comingsoon{
+        left: 10%;
+        font-size: 50px;
+        color: rgb(219, 226, 226) !important ;
+    }
+}
+@media only screen and (max-width:500px){
+    #comingsoon{
+        position: relative;
+        top:100px;
+        left: -10%;
+        font-size: 30px !important;
+        color: rgb(219, 226, 226) !important ;
+    }
+}
+@media only screen and (max-width:300px){
+    #comingsoon{
+        position: relative;
+        top:100px;
+        left: -130%;
+        font-size: 20px !important;
+        color: rgb(219, 226, 226) !important ;
+    }
+}
+
+
+.example{
+    border: 5px solid #cecebf2f;
+    padding: 50px !important;
+    height: 50px;
+    border:  transparent !important;
+}
+
+
+
+/* criteria */
+
+#ul{
+    list-style: disc ;
+    font-weight: normal;
+
+}
+@media only screen and (max-width:400px){
+    #li{
+        position: relative;
+        top: 10px;
+        font-size: 15px !important;
+        left: -25%;
+        width: 150px;
+    }
+}
+
+#li{
+    margin: 20px;
+    color:rgb(83, 81, 81);
+}
+
+#r-links{
+    position: relative;
+    left: 73%;
+    top: -310px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:400px){
+    #r-links{
+        position: sticky;
+       margin-top: 15px;
+       margin-bottom: 20px;
+        left: 100px;
+       width: 100% !important;
+       height: 100px !important;
+       font-size: 10px !important;
+      
+       
+    }
+    #r-link-text{
+        position: relative;
+       left: -40px;
+       font-size: 15px;
+        width: 150px;
+    }
+}
+
+/* contact us */
+
+.fa-envelope,.email,.facebook{
+    font-size: 50px !important;
+    color:#010e33 !important ;
+    margin-left: 5%;
+}
+.fa-map-marker,.location,.fa-mobile,.num,.fa-facebook-official{
+    font-size: 60px !important;
+    color:#010e33 !important ;
+    margin-left: 6%;
+}
+.address{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:1000px){
+
+    
+    .fa-envelope,.email{
+        margin-top: 70px !important;
+        font-size: 20px !important;
+    }
+
+    .fa-map-marker,.location,.num,.fa-mobile,.fa-facebook-official,.facebook{
+       
+        font-size: 20px !important;
+        margin-bottom: 10px;
+    }
+    
+}
+
+/* features */
+
+.features{
+    font-weight: normal;
+    color: #212c4d;
+    font-weight: normal !important;
+    font-size: 23px !important;
+    border-spacing: 2px !important;
+    text-shadow: -5px 5px 5px rgb(184, 187, 189);
+    
+    
+}
+
+
+#quates-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+
